@@ -1,9 +1,15 @@
 public class MyLength {
 
     private final int length;
+    private String unitStr;
 
     public MyLength(int value) {
         this.length = value;
+    }
+
+    public MyLength(int value, String unitStr) {
+        this.length = value;
+        this.unitStr = unitStr;
     }
 
     public int getValue() {
@@ -24,5 +30,9 @@ public class MyLength {
     @Override
     public int hashCode() {
         return length;
+    }
+
+    public boolean longerThan(MyLength length2) {
+        return true;
     }
 }

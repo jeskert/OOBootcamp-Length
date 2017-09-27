@@ -23,4 +23,11 @@ public class MyLengthTest {
         MyLength length2 = new MyLength(10);
         assertEquals(length1, length2);
     }
+
+    @Test
+    public void should_return_true_when_given_10_meters_and_9_meters() {
+        MyLength length1 = new MyLength(10, "m");
+        MyLength length2 = new MyLength(9, "m");
+        assertTrue(length1.longerThan(length2));
+    }
 }
