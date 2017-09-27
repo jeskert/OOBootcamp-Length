@@ -2,43 +2,31 @@
 
 Tasking ：
 
-1.  Given a string of “m”
-
-​    When
-
-​    Then return a unit of meter
-
-2.  Given a string of “cm” 
-
-    When  
-
-​    Then return a unit of centimeter
-
-3.  Given 10 meters and 9 meters
+1.  Given 10 meters and 9 meters
 
 ​    When compare these two length
 
 ​    Then return 10 meters is longer than 9 meters
 
-4.  Given 9 meters and 10 meters
+2.  Given 9 meters and 10 meters
 
 ​    When compare these two length
 
 ​    Then return 9 meters is shorter than 10 meters
 
-5.  Given 10 meters and 10 meters
+3.  Given 10 meters and 10 meters
 
 ​    When compare these two length
 
 ​    Then return 10 meters is equals to 10 meters
 
-6.  Given 10 meters and 90 centimeters
+4.  Given 10 meters and 90 centimeters
 
 ​    When compare these two length
 
 ​    Then return not supported different units
 
-7.  Given 10 meters and 10
+5.  Given 10 meters and 10
 
     When compare these two length
 

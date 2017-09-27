@@ -20,6 +20,18 @@ Tasking ：
 
 ​    Then return 10 meters is equals to 1000 centimeters
 
+4.  Given 10 meters and 1 kilometers
+
+​    When compare these two length
+
+​    Then return 10 meters is shorter than 1000 centimeters
+
+3.  Given 1 kilometers and 1000 centimeters
+
+​    When compare these two length
+
+​    Then return 1 kilometers is longer than 1000 centimeters
+
 4.  Given 10 meters and 10
 
     When compare these two length
